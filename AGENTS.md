@@ -10,6 +10,7 @@
 - 标题使用项目提供的 `hd1`/`hd2`/`hd3`/`hd4`，不要随意更换编号样式。注意：`heading` 在 level 3 时会重置公式计数。
 - 索引用 `@preview/in-dexter`：用 `#index([...])` 标注条目，并确保目录末尾仍由 `#make-index` 生成索引。
 - 目录结构：`main.typ` 通过 `#outline`、`#pagebreak()`、`#include` 组织章节，参考文献用 `#bibliography("ref.bib", style: "ieee")`。保持这一流程，不要调整文件入口与顺序，除非用户要求。
+- 文件拆分：章节文件可保留 hd2 壳（如 `ml/bayesian.typ`），将主要 hd3 模块拆成子文件（如 `bayesian/variational-inference.typ`、`bayesian/dpmm.typ` 等）并在壳文件里用 `#include` 引入；这样不影响编号/公式计数且便于维护。
 - 代码高亮沿用 `codly` 配置，示例代码用标准 `code`/`listing` 写法，不引入自定义魔法宏。
 
 【语法与风格】
