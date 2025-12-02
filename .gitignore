@@ -1,4 +1,8 @@
 # macos
 .DS_Store
 
+# build outputs
+build/
+
+# generated docs
 *.pdf

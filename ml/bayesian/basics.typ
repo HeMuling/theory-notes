@@ -1,6 +1,6 @@
 #import "../../prelude.typ": *
 
-#hd3("基础")
+#hd3("Basics")
 
 #hd4("贝叶斯优点")
 

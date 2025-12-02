@@ -1,6 +1,6 @@
 #import "../prelude.typ": *
 
-#hd2("贝叶斯")
+#hd2("Bayesian")
 
 贝叶斯涉及以下组件：
 

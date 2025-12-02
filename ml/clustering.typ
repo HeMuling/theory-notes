@@ -1,5 +1,5 @@
 #import "../prelude.typ": *
 
-#hd2("聚类")
+#hd2("Clustering")
 
 #include "clustering/prototypical-contrastive-learning.typ"

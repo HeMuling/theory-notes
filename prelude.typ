@@ -8,6 +8,8 @@
 
 #set text(lang: "cn", font: "Heiti SC")
 
+#let include_bibliography() = sys.inputs.at("include-bibliography", default: true)
+
 #set page(
   paper: "a4",
   numbering: "1",

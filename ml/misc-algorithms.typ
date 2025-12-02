@@ -1,5 +1,5 @@
 #import "../prelude.typ": *
 
-#hd2("其他算法")
+#hd2("Misc Algorithms")
 
 #include "misc-algorithms/noise-contrastive-estimation.typ"

@@ -20,7 +20,11 @@
 
 #pagebreak()
 
-#include "ml/index.typ"
+#import "ml/index.typ": ml_index
+
+#show bibliography: it => none
+
+#ml_index(include_bibliography: false)
 #pagebreak()
 #include "math/index.typ"
 #pagebreak()
@@ -29,6 +33,7 @@
 #include "neuro/index.typ"
 
 #pagebreak()
+#show bibliography: it => it
 #bibliography("ref.bib", style: "ieee", title: "参考文献")
 
 #pagebreak()

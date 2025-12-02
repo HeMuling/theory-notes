@@ -1,6 +1,6 @@
 #import "../prelude.typ": *
 
-#hd2("Latent variable model")
+#hd2("Latent Variable Model")
 
 #include "latent-variable/latent-variable-model.typ"
 #include "latent-variable/em-algorithm.typ"
