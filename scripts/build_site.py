@@ -58,6 +58,7 @@ def compile_typst(input_path, output_rel_path):
             "compile",
             "--root", ".",
             "--font-path", FONT_PATH,
+            "--ignore-system-fonts",
             "--input", f"root-file={input_path}",
             input_path,
             output_path,
