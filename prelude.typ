@@ -6,7 +6,7 @@
 #import "@preview/codly-languages:0.1.1": *
 #import "@preview/in-dexter:0.7.0": *
 
-#set text(lang: "cn", font: "Heiti SC")
+#set text(lang: "cn", font: "Source Han Sans SC")
 
 #let include_bibliography() = sys.inputs.at("include-bibliography", default: true)
 

@@ -22,7 +22,7 @@ $
 sum_f E_(o t e) (xi_a|X,f) &= sum_f sum_h sum_(bold(x) in cal(X) - X) P(X) bb(I)(h(bold(x)) eq.not f(bold(x)))P(h|X, xi_a)\
 &= sum_h sum_(bold(x) in cal(X) - X) P(X) P(h|X, xi_a) sum_f bb(I)(h(bold(x)) eq.not f(bold(x)))\
 
-&text(font: "STFangsong", "根据假设，总有一半是正确的，因此")\
+&text("根据假设，总有一半是正确的，因此")\
 
 &= sum_h sum_(bold(x) in cal(X) - X) P(X) P(h|X, xi_a) 1/2 2^(|cal(X|))\
 &= 2^(|cal(X)|-1) sum_(x in cal(X)-X)P(X)

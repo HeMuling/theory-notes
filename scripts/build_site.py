@@ -9,6 +9,8 @@ from datetime import datetime
 DIRS = ['math', 'stats', 'ml', 'neuro']
 BUILD_DIR = 'build'
 TEMPLATE_FILE = 'index.html'
+# Use locally converted TTFs to avoid relying on system fonts
+FONT_PATH = os.path.join('assets', 'fonts')
 
 # Capture both include and import to reconstruct declared order
 INCLUDE_PATTERN = re.compile(r'#(?:include|import)\s+"([^"]+\.typ)"')
@@ -55,6 +57,7 @@ def compile_typst(input_path, output_rel_path):
             "typst",
             "compile",
             "--root", ".",
+            "--font-path", FONT_PATH,
             "--input", f"root-file={input_path}",
             input_path,
             output_path,

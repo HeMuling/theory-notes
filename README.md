@@ -4,7 +4,8 @@
 
 ## 本地构建
 1. 确保已安装 `typst`（0.14+）与 `python3`。
-2. 运行 `python3 scripts/build_site.py`，生成的 HTML 与 PDF 位于 `build/`。
+2. 单文件编译：`typst compile main.typ --font-path assets/fonts`。
+3. 运行 `python3 scripts/build_site.py`，生成的 HTML 与 PDF 位于 `build/`。
    - 章节顺序跟随各目录下的 `index.typ` 中的 `#include` 顺序。
    - 大章节汇总 PDF 命名为 `overview.pdf`（例如 `build/ml/overview.pdf`）。
 
